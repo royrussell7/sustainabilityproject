@@ -1,0 +1,114 @@
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    background-image: url("/images/parkbackground.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#mainContent {
+    display : flex ; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mainpart{ 
+    display : flex ; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#explanation {
+    padding: 10px 20px;
+  font-size: 32px;
+  cursor: pointer;
+  margin-top: 15px;
+  border: none;
+  background-color: #e7f7ff;
+  color: black;
+  border-radius: 5px;
+    width: 300px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#correctCounter {
+    width: 300px;
+}
+
+#title{
+    background-color: #b3e4fc;
+    border: 7px solid #6a82bd;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#header{
+    flex : 1;
+}
+
+
+#content {
+    display : flex ; 
+    flex : 2;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#compost {
+    margin: 7px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: rgb(236, 248, 255);
+}
+
+#compost:hover {
+    background-color: #acbeed;
+  }
+#recycling {
+    margin: 7px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: rgb(236, 248, 255);
+}
+
+#recycling:hover {
+    background-color: #acbeed;
+  }
+#garbage {
+    margin: 7px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: rgb(236, 248, 255);
+}
+#garbage:hover {
+    background-color: #acbeed;
+  }
+
+#object{
+    flex : 2;
+}
+
+#correctCounter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    width: 300px;
+    height: 200px;
+    padding: 10px 20px;
+    font-size: 100px;
+    margin-top: 15px;
+    border: none;
+    background-color: #b3e4fc;
+    border: 3px solid #6a82bd;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}

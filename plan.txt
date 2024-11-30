@@ -1,0 +1,12 @@
+Plan Here:
+recycling game 
+
+Rules:
+1. An object pops up on your screen and you have to decide whether it goes in compost, trash, or recycling
+2. You have to click on your decision
+3. If you get it right, a new object appears
+4. if you get it wrong, you get publicly ridiculed 
+
+if we have time we make wordle yay 
+
+objects we're putting in - applecore,plasticwaterbottle, sandwich, chipbag, cardboardbox, qtip 

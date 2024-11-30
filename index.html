@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Recycle Rush</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <audio preload="auto"></audio>
+</head>
+
+<body>
+<div id="mainpart">
+    <div id="header">
+        <div id="title">Recycle Rush</div>
+        <div id="instructions"></div>
+    </div>
+
+    <div id="object"></div>
+
+    <div id="mainContent">
+        <div id="explanation"></div>
+
+        <div id="content">
+            <div id="compost" onclick="clickedCompost()">
+                <img src="images/compostimage.png">
+            </div>
+
+            <div id="recycling" onclick="clickedRecycling()">
+                <img src="images/recyclingimage.png">
+            </div>
+
+            <div id="garbage" onclick="clickedGarbage()">
+                <img src="images/garbageimage.png">
+            </div>
+        </div>
+
+        <div id="correctCounter">0</div>
+    </div>
+</div> 
+
+    <!-- The  script that runs everything -->
+    <script src="script.js"></script>
+</body>
+
+</html>
